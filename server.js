@@ -2,7 +2,7 @@ const http = require('http');
 
 const server = http.createServer((req, res) => {
   res.writeHead(200, { 'Content-Type': 'text/plain' });
-  res.end('Hello Elaf from your Node.js server 🌱');
+  res.end('Hello World from Node.js server');
 });
 
 const PORT = 3000;
